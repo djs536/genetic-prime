@@ -90,7 +90,6 @@ genPrime <- function(max_generations = 10, population = 100, starting_range = c(
 
 test <- genPrime(100, 100, c(1, 5), 3)
 
-test2 <- genPrime(120, 1000, c(-4000, 2), 2)
-plot(test2$by_generation)
+plot(test$by_generation)
 
 
